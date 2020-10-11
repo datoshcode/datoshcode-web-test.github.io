@@ -214,7 +214,7 @@ td.serial-number {
   width: 5%;
 }
 
-.serial-number p {
+td.serial-number p {
   text-align: left;
   font-weight: 500;
   font-size: 16px;
@@ -229,7 +229,7 @@ td.title-act {
 /* Убрать отступ в тексте колонки */
 .title-act p:first-letter {margin-left: 0px;}
 
-.title-act p {
+td.title-act p {
   text-align: left;
   font-size: 16px;
 }
@@ -240,7 +240,8 @@ td.comment__content {
   width: 70%;
 
 }
-.comment__content p {
+
+td.comment__content p {
  font-size: 16px;
  text-align: justify;
 }
